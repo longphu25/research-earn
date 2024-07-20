@@ -1,0 +1,3 @@
+[submodule "apps/nextjs-tele-mini-app"]
+	path = apps/nextjs-tele-mini-app
+	url = git@github.com:longphu25/nextjs-tele-mini-app.git

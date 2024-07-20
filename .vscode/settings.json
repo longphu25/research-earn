@@ -1,0 +1,12 @@
+{
+    "search.exclude": {
+        "pnpm-lock.yaml": true
+    },
+    // Ensure VSCode uses pnpm instead of npm
+    // "eslint.packageManager": "pnpm",
+    "npm.packageManager": "pnpm",
+    // For those using file-nesting, nest the new files. E.g.:
+    "explorer.fileNesting.patterns":{
+    "package.json": "pnpm-workspace.yaml, pnpm-lock.yaml"
+    }
+}
