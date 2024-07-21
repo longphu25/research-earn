@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+[NX Daemon Server] - 2024-07-21T08:05:30.937Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-21T08:05:30.938Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-21T08:05:31.208Z - Started listening on: /var/folders/t7/qrl0l14n56vd3706g6nb6_w00000gn/T/0db23a08eecf83c7c21d/d.sock
+[NX Daemon Server] - 2024-07-21T08:05:31.212Z - [WATCHER]: Subscribed to changes within: /Users/longphu/p/my/research-earn (native)
+[NX Daemon Server] - 2024-07-21T08:05:31.675Z - Started listening on: /var/folders/t7/qrl0l14n56vd3706g6nb6_w00000gn/T/0db23a08eecf83c7c21d/d.sock
+[NX Daemon Server] - 2024-07-21T08:05:31.678Z - [WATCHER]: Subscribed to changes within: /Users/longphu/p/my/research-earn (native)
+[NX Daemon Server] - 2024-07-21T08:05:31.679Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-21T08:05:31.682Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-21T08:05:31.685Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-21T08:05:31.685Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-21T08:05:31.687Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-21T08:05:31.693Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-07-21T08:05:31.694Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-21T08:05:31.696Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-21T08:05:31.697Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-21T08:05:31.697Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2024-07-21T08:05:31.723Z - Started listening on: /var/folders/t7/qrl0l14n56vd3706g6nb6_w00000gn/T/0db23a08eecf83c7c21d/d.sock
+[NX Daemon Server] - 2024-07-21T08:05:31.726Z - [WATCHER]: Subscribed to changes within: /Users/longphu/p/my/research-earn (native)
+[NX Daemon Server] - 2024-07-21T08:05:31.778Z - Closed a connection. Number of open connections: 1
+
+
+
+More information: /Users/longphu/p/my/research-earn/.nx/workspace-data/d/daemon.log

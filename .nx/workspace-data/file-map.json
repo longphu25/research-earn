@@ -1,0 +1,1027 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.5.1",
+  "deps": {
+    "@tanstack/react-query": "5.40.0",
+    "nx": "^19.5.1"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "shared-ui": [
+        {
+          "file": "packages/shared-ui/Button.tsx",
+          "hash": "8466718483200692395"
+        },
+        {
+          "file": "packages/shared-ui/index.tsx",
+          "hash": "5741027201758886299"
+        },
+        {
+          "file": "packages/shared-ui/package.json",
+          "hash": "3860689822873660680",
+          "deps": [
+            "npm:typescript",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/shared-ui/tsconfig.json",
+          "hash": "2135662916639491165"
+        }
+      ],
+      "nextjs-tele-mini-app": [
+        {
+          "file": "apps/nextjs-tele-mini-app/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/.gitignore",
+          "hash": "12769944097418553389"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/README.md",
+          "hash": "15620240582970632863"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/assets/ssl-warning.png",
+          "hash": "3436597955143465063"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/next.config.mjs",
+          "hash": "6567081978241091914"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/package.json",
+          "hash": "16764580726731556931",
+          "deps": [
+            "npm:@types/node@20.14.11",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:postcss@8.4.39",
+            "npm:tailwindcss",
+            "npm:typescript@5.5.3",
+            "npm:@swc-node/register",
+            "npm:@swc/cli",
+            "npm:@swc/core",
+            "npm:@swc/helpers@0.5.12",
+            "npm:@swc/jest",
+            "npm:@types/jest",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:autoprefixer@10.4.13",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
+            "npm:nx@19.0.0",
+            "npm:prettier",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:@types/uuid",
+            "npm:@telegram-apps/react-router-integration",
+            "npm:@telegram-apps/sdk-react",
+            "npm:@telegram-apps/telegram-ui",
+            "npm:@tonconnect/ui-react",
+            "npm:eruda",
+            "npm:next@14.2.4",
+            "npm:normalize.css",
+            "npm:react",
+            "npm:react-dom",
+            "npm:@coral-xyz/anchor",
+            "npm:@solana-developers/preset-next",
+            "npm:@solana/spl-token",
+            "npm:@solana/wallet-adapter-base",
+            "npm:@solana/wallet-adapter-react",
+            "npm:@solana/wallet-adapter-react-ui",
+            "npm:@solana/web3.js",
+            "npm:@tabler/icons-react",
+            "npm:@tailwindcss/typography",
+            "npm:@tanstack/react-query",
+            "npm:@tanstack/react-query-next-experimental",
+            "npm:bs58@5.0.0",
+            "npm:buffer@6.0.3",
+            "npm:daisyui",
+            "npm:encoding",
+            "npm:jotai",
+            "npm:react-hot-toast",
+            "npm:tslib",
+            "npm:@circle-fin/user-controlled-wallets",
+            "npm:@circle-fin/w3s-pw-web-sdk",
+            "npm:@headlessui/react",
+            "npm:@interest-protocol/ui-kit",
+            "npm:@noble/hashes",
+            "npm:@phosphor-icons/react",
+            "npm:@react-oauth/google",
+            "npm:jwt-decode",
+            "npm:react-auth-kit",
+            "npm:react-hook-form",
+            "npm:react-toastify",
+            "npm:ts-invariant",
+            "npm:usehooks-ts",
+            "npm:uuid@9.0.1"
+          ]
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/pnpm-lock.yaml",
+          "hash": "931134565457638279"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/postcss.config.mjs",
+          "hash": "2557392112968376575"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/public/tonconnect-manifest.json",
+          "hash": "12133995769693151669"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/_assets/globals.css",
+          "hash": "4031408410791333834"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/_assets/solana.svg",
+          "hash": "10316319741169233560"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/_assets/ton.svg",
+          "hash": "7288591608538110450"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/error.tsx",
+          "hash": "5301070802033657168"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/init-data/page.tsx",
+          "hash": "16064614118178819688"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/launch-params/page.tsx",
+          "hash": "14306277576175434120"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/layout.tsx",
+          "hash": "3060780925286667280"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/page.tsx",
+          "hash": "12255065658505687204"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/react-query-provider.tsx",
+          "hash": "3045630838846882828"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/solana/account/[address]/page.tsx",
+          "hash": "8151241651873665645"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/solana/account/page.tsx",
+          "hash": "14883498798395250877"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/solana/clusters/page.tsx",
+          "hash": "10032816758945206890"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/solana/layout.tsx",
+          "hash": "6996258098785305138"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/solana/page.tsx",
+          "hash": "13564153538014964691"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/solana/styles.css",
+          "hash": "8317939200637590933"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/theme-params/page.tsx",
+          "hash": "1207045258514810299"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/ton-connect/page.tsx",
+          "hash": "16458512755785575482"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/app/ton-connect/styles.css",
+          "hash": "3990638159655081647"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/DisplayData/DisplayData.tsx",
+          "hash": "16082614267811379990"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/DisplayData/styles.css",
+          "hash": "7229175388923146408"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/ErrorBoundary.tsx",
+          "hash": "18430689654233486034"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/ErrorPage.tsx",
+          "hash": "1969205353092900732"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/Link/Link.tsx",
+          "hash": "3994628073501909680"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/Link/styles.css",
+          "hash": "15885032411110705326"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/RGB/RGB.tsx",
+          "hash": "15524285711838724945"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/RGB/styles.css",
+          "hash": "10335651096898879840"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/Root/Root.tsx",
+          "hash": "9238966150253110964"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/Root/styles.css",
+          "hash": "11483388992883165887"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/account/account-data-access.tsx",
+          "hash": "1937785643837873736"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/account/account-detail-feature.tsx",
+          "hash": "5584865253183114725"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/account/account-list-feature.tsx",
+          "hash": "9041089640477072341"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/account/account-ui.tsx",
+          "hash": "17843632025298730344"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/cluster/cluster-data-access.tsx",
+          "hash": "14689816500549093808"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/cluster/cluster-feature.tsx",
+          "hash": "5431644482166522517"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/cluster/cluster-ui.tsx",
+          "hash": "13207686012653461466"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/dashboard/dashboard-feature.tsx",
+          "hash": "5187372583626493555"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/solana-provider.tsx",
+          "hash": "5143688928115597499"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/components/solana/ui/ui-layout.tsx",
+          "hash": "15839093571020794055"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/hooks/useClientOnce.ts",
+          "hash": "13060292940232085506"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/hooks/useDidMount.ts",
+          "hash": "7097385364081639481"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/src/hooks/useTelegramMock.ts",
+          "hash": "9555187255329873124"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/tailwind.config.ts",
+          "hash": "2704431630182598103"
+        },
+        {
+          "file": "apps/nextjs-tele-mini-app/tsconfig.json",
+          "hash": "4320684160905164141"
+        }
+      ],
+      "my-remix-app": [
+        {
+          "file": "apps/my-remix-app/.eslintrc.cjs",
+          "hash": "7641779309036131719"
+        },
+        {
+          "file": "apps/my-remix-app/.gitignore",
+          "hash": "2267986781002139465"
+        },
+        {
+          "file": "apps/my-remix-app/README.md",
+          "hash": "2643931112379010498"
+        },
+        {
+          "file": "apps/my-remix-app/app/entry.client.tsx",
+          "hash": "5186934067478039483"
+        },
+        {
+          "file": "apps/my-remix-app/app/entry.server.tsx",
+          "hash": "3025734087346391440"
+        },
+        {
+          "file": "apps/my-remix-app/app/root.tsx",
+          "hash": "13515499059311305228"
+        },
+        {
+          "file": "apps/my-remix-app/app/routes/_index.tsx",
+          "hash": "16811294456201610724"
+        },
+        {
+          "file": "apps/my-remix-app/app/tailwind.css",
+          "hash": "2866083945719690482"
+        },
+        {
+          "file": "apps/my-remix-app/package.json",
+          "hash": "6174146479440941450",
+          "deps": [
+            "npm:@remix-run/dev",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:postcss@8.4.39",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:vite",
+            "npm:vite-tsconfig-paths",
+            "npm:@remix-run/node",
+            "npm:@remix-run/react",
+            "npm:@remix-run/serve",
+            "npm:isbot",
+            "npm:react",
+            "npm:react-dom",
+            "shared-ui"
+          ]
+        },
+        {
+          "file": "apps/my-remix-app/postcss.config.js",
+          "hash": "1886002347757770194"
+        },
+        {
+          "file": "apps/my-remix-app/public/favicon.ico",
+          "hash": "3730367829618743876"
+        },
+        {
+          "file": "apps/my-remix-app/tailwind.config.ts",
+          "hash": "8009140362371304825"
+        },
+        {
+          "file": "apps/my-remix-app/tsconfig.json",
+          "hash": "11447546127494410491"
+        },
+        {
+          "file": "apps/my-remix-app/vite.config.ts",
+          "hash": "13261507087725994784"
+        }
+      ],
+      "web-pw-sample-app": [
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/.env.sample",
+          "hash": "15566482795010330972"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/.eslintrc.json",
+          "hash": "14097660781013169024"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/.github/workflows/ci.yml",
+          "hash": "13403611517602990497"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/.gitignore",
+          "hash": "18352632337501961924"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/.nvmrc",
+          "hash": "6853063293632395004"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/LICENSE",
+          "hash": "7432999938718413289"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/README.md",
+          "hash": "2753224989412450410"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/SECURITY.md",
+          "hash": "14145058463589802544"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/(authorized)/wallets/[id]/activity/[transactionId]/page.tsx",
+          "hash": "16729451467937611672"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/(authorized)/wallets/[id]/deposit/page.tsx",
+          "hash": "14181050564855227952"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/(authorized)/wallets/[id]/layout.tsx",
+          "hash": "3960069456360750628"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/(authorized)/wallets/[id]/page.tsx",
+          "hash": "4822012765783788334"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/(authorized)/wallets/[id]/send/[tokenName]/page.tsx",
+          "hash": "17984611356965219446"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/(authorized)/wallets/[id]/send/page.tsx",
+          "hash": "4619377892995231478"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/(authorized)/wallets/layout.tsx",
+          "hash": "9883264770021083465"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/(authorized)/wallets/page.tsx",
+          "hash": "7251071439884547744"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/layout.tsx",
+          "hash": "5548655178145090803"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/page.tsx",
+          "hash": "5191300032195675128"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/signin/page.tsx",
+          "hash": "11907403563947504820"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/(pages)/signup/page.tsx",
+          "hash": "14282856281896693514"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/api/auth/[...nextauth]/route.ts",
+          "hash": "9006430211021140434"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/api/ping/route.ts",
+          "hash": "956141401608013870"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/axios/axios.ts",
+          "hash": "2769400102092471394"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/axios/faucet.ts",
+          "hash": "14560335211099706526"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/axios/index.ts",
+          "hash": "11344704821529259318"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/axios/tokens.ts",
+          "hash": "9522709033046169206"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/axios/transactions.ts",
+          "hash": "3051428682405706266"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/axios/users.ts",
+          "hash": "1987961376136810043"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/axios/wallets.ts",
+          "hash": "5277731370819201310"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Authentication/AuthenticationForm.tsx",
+          "hash": "878942817177639227"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Buttons/BackButton.tsx",
+          "hash": "7989780608469434232"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Buttons/CopyButton.tsx",
+          "hash": "16547781731923839951"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Buttons/index.ts",
+          "hash": "14082116921575176111"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Cards/TokenCard.tsx",
+          "hash": "3870176853727950458"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Content.tsx",
+          "hash": "7389794177936308756"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Footer.tsx",
+          "hash": "12396631266533206230"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Loading/LoadingWrapper.tsx",
+          "hash": "16433461445219521208"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Providers/ClientProviders.tsx",
+          "hash": "17020657850077318341"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Providers/SendTokenProvider.tsx",
+          "hash": "17278528149905298048"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/Providers/W3sProvider.tsx",
+          "hash": "6485580987796392571"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/TextField.tsx",
+          "hash": "3093330479969524589"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/components/index.ts",
+          "hash": "11722072750866760180"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/Deposit.tsx",
+          "hash": "297909838912167512"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/WalletActivity.tsx",
+          "hash": "2551332624769786679"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/WalletActivityDetails.tsx",
+          "hash": "2468656059773772755"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/WalletDetails.tsx",
+          "hash": "9413664294068675198"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/Wallets/Send/SelectToken.tsx",
+          "hash": "10755759509210362516"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/Wallets/Send/SendToken.tsx",
+          "hash": "11457211117069805001"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/Wallets/Send/SendTokenConfirm.tsx",
+          "hash": "13281075015855613073"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/Wallets/Send/SendTokenForm.tsx",
+          "hash": "5052952840849790979"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/Wallets/Send/SendTokenSummary.tsx",
+          "hash": "69174055997862470"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/containers/Wallets/Send/index.ts",
+          "hash": "435433087992057241"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/globals.css",
+          "hash": "5768309762899265390"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/icon.ico",
+          "hash": "3569199289926602872"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/shared/types.ts",
+          "hash": "2322050766410612607"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/shared/utils.ts",
+          "hash": "9032109475502814671"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/app/types/next-auth.d.ts",
+          "hash": "11092280154999026951"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/next.config.js",
+          "hash": "16251606374362588233"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/package.json",
+          "hash": "13357365501974818910",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:prettier",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:axios",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/postcss.config.js",
+          "hash": "8055263870272897227"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/CircleLogo.svg",
+          "hash": "12357375512230012162"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/CircleLogoWithName.svg",
+          "hash": "12328583518969420247"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/ErrorIcon.svg",
+          "hash": "7296891060365713835"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/Eth.svg",
+          "hash": "4926517813797560381"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/Faucet.svg",
+          "hash": "3710702308871650393"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/Github.svg",
+          "hash": "9267582482459173227"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/NoActivity.svg",
+          "hash": "17037458270625428843"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/NoTokens.svg",
+          "hash": "1633168057487037179"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/Poly.svg",
+          "hash": "16763391448880181517"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/Success.gif",
+          "hash": "16917802801885594354"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/public/USDC.svg",
+          "hash": "4413195501826519617"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/tailwind.config.ts",
+          "hash": "7751872152213892326"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/tsconfig.json",
+          "hash": "15627127291628932681"
+        },
+        {
+          "file": "apps/w3s-sample-user-controlled-client-web/yarn.lock",
+          "hash": "15451147017350017174"
+        }
+      ],
+      "its-just-a-wallet": [
+        {
+          "file": "apps/circle-wallet/.env.example",
+          "hash": "1505110287528583222"
+        },
+        {
+          "file": "apps/circle-wallet/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/circle-wallet/.gitignore",
+          "hash": "14802173194532751157"
+        },
+        {
+          "file": "apps/circle-wallet/README.md",
+          "hash": "18252871810808599897"
+        },
+        {
+          "file": "apps/circle-wallet/next.config.mjs",
+          "hash": "6567081978241091914"
+        },
+        {
+          "file": "apps/circle-wallet/package.json",
+          "hash": "1766725547029937368",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/circle-wallet/pnpm-lock.yaml",
+          "hash": "11217627384190499452"
+        },
+        {
+          "file": "apps/circle-wallet/postcss.config.mjs",
+          "hash": "2557392112968376575"
+        },
+        {
+          "file": "apps/circle-wallet/public/ethereum.svg",
+          "hash": "13718022012912753301"
+        },
+        {
+          "file": "apps/circle-wallet/public/eurc.svg",
+          "hash": "2368626084012344209"
+        },
+        {
+          "file": "apps/circle-wallet/public/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/circle-wallet/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/circle-wallet/public/usdc.svg",
+          "hash": "15879899518562047516"
+        },
+        {
+          "file": "apps/circle-wallet/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/circle-wallet/src/api/circle.ts",
+          "hash": "6811643928596605898"
+        },
+        {
+          "file": "apps/circle-wallet/src/components/dashboard/balance.tsx",
+          "hash": "5451712784417762116"
+        },
+        {
+          "file": "apps/circle-wallet/src/components/dashboard/header.tsx",
+          "hash": "16806961787162831715"
+        },
+        {
+          "file": "apps/circle-wallet/src/components/dashboard/layout.tsx",
+          "hash": "5118701289807602310"
+        },
+        {
+          "file": "apps/circle-wallet/src/components/dashboard/transactions.tsx",
+          "hash": "14730553134360323827"
+        },
+        {
+          "file": "apps/circle-wallet/src/components/dashboard/wallet.tsx",
+          "hash": "10872306830249967610"
+        },
+        {
+          "file": "apps/circle-wallet/src/components/dropdown.tsx",
+          "hash": "5919689967052829860"
+        },
+        {
+          "file": "apps/circle-wallet/src/constants/circle.ts",
+          "hash": "4924409992981746206"
+        },
+        {
+          "file": "apps/circle-wallet/src/context/ContactContext.tsx",
+          "hash": "14512494534855991437"
+        },
+        {
+          "file": "apps/circle-wallet/src/context/WalletContext.tsx",
+          "hash": "10967004212329627515"
+        },
+        {
+          "file": "apps/circle-wallet/src/hooks/useContact.ts",
+          "hash": "3234621109743231365"
+        },
+        {
+          "file": "apps/circle-wallet/src/hooks/useWallet.ts",
+          "hash": "3200069497863578107"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/_app.tsx",
+          "hash": "17575614771243754639"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/_document.tsx",
+          "hash": "16380217497616700458"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/changePin.ts",
+          "hash": "15170050157308583916"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/createTransaction.ts",
+          "hash": "17411049153765301179"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/fetchBalance.ts",
+          "hash": "7767609477961822469"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/fetchTransactions.ts",
+          "hash": "14849937761412400298"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/getWallet.ts",
+          "hash": "5984471366447044699"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/getWallets.ts",
+          "hash": "5649757210678047471"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/refreshSession.ts",
+          "hash": "12121184660280891433"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/restorePin.ts",
+          "hash": "6640265348638179726"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/userCreate.ts",
+          "hash": "7177752071808517547"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/api/circle/walletCreate.ts",
+          "hash": "6092214122166127053"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/dashboard/add-contact.tsx",
+          "hash": "11211802930014325979"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/dashboard/contacts.tsx",
+          "hash": "14997870126803870284"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/dashboard/create-wallet.tsx",
+          "hash": "11289074467822504256"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/dashboard/index.tsx",
+          "hash": "7106107710266045162"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/dashboard/send.tsx",
+          "hash": "4945959323853975044"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/dashboard/settings.tsx",
+          "hash": "2057629369252688421"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/dashboard/transactions.tsx",
+          "hash": "6899809215557046442"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/dashboard/wallets.tsx",
+          "hash": "12277706278947336593"
+        },
+        {
+          "file": "apps/circle-wallet/src/pages/index.tsx",
+          "hash": "10692979022853921162"
+        },
+        {
+          "file": "apps/circle-wallet/src/providers/FontProvider.tsx",
+          "hash": "951288341883294973"
+        },
+        {
+          "file": "apps/circle-wallet/src/providers/ToastProvider.tsx",
+          "hash": "11625678757477541386"
+        },
+        {
+          "file": "apps/circle-wallet/src/server/circle.ts",
+          "hash": "13122157833297535869"
+        },
+        {
+          "file": "apps/circle-wallet/src/styles/globals.css",
+          "hash": "18101794866619228416"
+        },
+        {
+          "file": "apps/circle-wallet/src/types/auth.ts",
+          "hash": "11818564859857786278"
+        },
+        {
+          "file": "apps/circle-wallet/src/types/circle.ts",
+          "hash": "9045728822587043739"
+        },
+        {
+          "file": "apps/circle-wallet/src/utils/eth.ts",
+          "hash": "6664690104345278399"
+        },
+        {
+          "file": "apps/circle-wallet/tailwind.config.ts",
+          "hash": "8266647255848899898"
+        },
+        {
+          "file": "apps/circle-wallet/tsconfig.json",
+          "hash": "11947368788152798359"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".env.sample",
+        "hash": "4778741633932135039"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3599334357606522031"
+      },
+      {
+        "file": ".gitmodules",
+        "hash": "13448122755202237256"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "7032490051060470550"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "17837299179963891856"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "17850749429017428044"
+      },
+      {
+        "file": "Makefile",
+        "hash": "15864643658954460211"
+      },
+      {
+        "file": "docs/pnpm.md",
+        "hash": "11060516863600435279"
+      },
+      {
+        "file": "docs/todo.md",
+        "hash": "9766113320847560006"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6496089917987713470"
+      },
+      {
+        "file": "package.json",
+        "hash": "6602418211724062245"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "6715183779993162120"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "15746996637277708871"
+      }
+    ]
+  }
+}

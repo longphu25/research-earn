@@ -18,3 +18,12 @@ build:
 	
 parallel:
 	pnpm run --parallel -r build
+
+nx-build:
+	npx nx build
+
+nx-buid-shared-ui:
+	npx nx build shared-ui
+
+nx-build-all:
+	npx nx run-many --target=build --all

@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.51.12",
+    "nx": "^19.5.1"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.40.0",
+    "@tanstack/react-query-next-experimental": "5.40.0"
+  }
 }
